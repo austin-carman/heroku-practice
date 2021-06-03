@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "heroku-postbuild": "cd client && npm i && npm run build"
   },
   "license": "ISC",
   "devDependencies": {
